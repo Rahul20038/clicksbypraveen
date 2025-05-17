@@ -32,7 +32,7 @@ const Services = () => {
               "High-resolution digital images",
               "Premium photo album options"
             ]}
-            image="https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1974&auto=format&fit=crop"
+            image="/lovable-uploads/wedding-photo.jpg"
             icon={<Camera size={24} />}
           />
           
@@ -46,7 +46,7 @@ const Services = () => {
               "Key moment coverage",
               "Quick turnaround time"
             ]}
-            image="https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?q=80&w=2069&auto=format&fit=crop"
+            image="/lovable-uploads/birthday.jpg"
             icon={<Cake size={24} />}
             reverse={true}
           />
@@ -61,7 +61,7 @@ const Services = () => {
               "Creative concepts and themes",
               "Same-day preview of selected photos"
             ]}
-            image="https://images.unsplash.com/photo-1537633552985-df8429e8048b?q=80&w=1974&auto=format&fit=crop"
+            image="/lovable-uploads/prewedding.png"
             icon={<Heart size={24} />}
           />
           
@@ -75,7 +75,7 @@ const Services = () => {
               "Patient and experienced with children",
               "Family photos included"
             ]}
-            image="https://images.unsplash.com/photo-1612461532625-9e5f2312d9e9?q=80&w=1974&auto=format&fit=crop"
+            image="/lovable-uploads/baby.jpg"
             icon={<Baby size={24} />}
             reverse={true}
           />
@@ -90,7 +90,7 @@ const Services = () => {
               "Creative composition",
               "Black and white and color options"
             ]}
-            image="https://images.unsplash.com/photo-1609370850684-afc7cdbe4a5e?q=80&w=1974&auto=format&fit=crop"
+            image="/lovable-uploads/candidd.jpg"
             icon={<User size={24} />}
           />
           
@@ -104,7 +104,7 @@ const Services = () => {
               "Individual and group portraits",
               "Professional retouching"
             ]}
-            image="https://images.unsplash.com/photo-1502124103086-36918e69f5a1?q=80&w=1974&auto=format&fit=crop"
+            image="/lovable-uploads/traditional.jpg"
             icon={<ImageIcon size={24} />}
             reverse={true}
           />
@@ -119,7 +119,7 @@ const Services = () => {
               "Relaxed and comfortable sessions",
               "Weather backup plans"
             ]}
-            image="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?q=80&w=1972&auto=format&fit=crop"
+            image="/lovable-uploads/outdoor.jpg"
             icon={<Mountain size={24} />}
           />
         </div>

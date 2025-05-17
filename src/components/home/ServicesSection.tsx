@@ -19,7 +19,7 @@ const services = [
     title: "Pre-Wedding Shoots",
     description: "Romantic and creative sessions for couples",
     icon: Heart,
-    image: "/lovable-uploads/eedafaae-73a8-4dfa-91a0-7b587f4e199c.png", // Couple in formal wear
+    image: "/lovable-uploads/pre.jpg", // Couple in formal wear
   },
   {
     title: "Baby Shoots",

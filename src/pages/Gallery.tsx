@@ -24,7 +24,7 @@ const galleryData = [
   },
   {
     id: "4",
-    src: "/lovable-uploads/eedafaae-73a8-4dfa-91a0-7b587f4e199c.png",
+    src: "/lovable-uploads/g1.jpg",
     category: "Pre-Wedding",
   },
   {

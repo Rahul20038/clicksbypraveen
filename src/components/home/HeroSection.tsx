@@ -26,21 +26,30 @@ const HeroSection = () => {
       {heroImages.map((image, index) => (
         <div
           key={index}
-          className={`hero-slide absolute inset-0 transition-opacity duration-1000 ease-in-out ${
+          className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
             index === currentSlide ? "opacity-100" : "opacity-0"
           }`}
         >
-          <img src={image} alt={`Hero image ${index + 1}`} className="hero-image" />
-          <div className="hero-overlay">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in">
-              Capturing Emotions, <br /> Moments & Memories
-            </h1>
-            <p className="text-lg md:text-xl mb-8 max-w-2xl animate-fade-in">
-              Professional photography services by Thatha Praveen
-            </p>
-            <Link to="/contact" className="book-btn animate-fade-in">
-              Book a Session
-            </Link>
+          <img 
+            src={image} 
+            alt={`Hero image ${index + 1}`} 
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black/30">
+            <div className="text-center">
+              <h1 className="text-4xl md:text-6xl font-bold mb-4">
+                Capturing Emotions, <br /> Moments & Memories
+              </h1>
+              <p className="text-lg md:text-xl mb-8 max-w-2xl">
+                Professional photography services by Thatha Praveen
+              </p>
+              <Link 
+                to="/contact" 
+                className="book-btn bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-full inline-block transition-colors"
+              >
+                Book a Session
+              </Link>
+            </div>
           </div>
         </div>
       ))}

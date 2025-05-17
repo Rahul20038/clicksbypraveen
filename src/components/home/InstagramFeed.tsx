@@ -19,7 +19,7 @@ const samplePosts = [
   },
   {
     id: "3",
-    image: "/lovable-uploads/eedafaae-73a8-4dfa-91a0-7b587f4e199c.png", // Pre-wedding couple
+    image: "/lovable-uploads/inp3.jpg", // Pre-wedding couple
     likes: 208,
     comments: 32,
   },
