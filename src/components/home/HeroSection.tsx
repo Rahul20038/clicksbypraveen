@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 // Sample images for the hero slider
 const heroImages = [
-  "https://images.unsplash.com/photo-1608446781594-658871744e69?q=80&w=2071&auto=format&fit=crop",
   "https://images.unsplash.com/photo-1537633552985-df8429e8048b?q=80&w=2070&auto=format&fit=crop",
   "https://images.unsplash.com/photo-1534525781407-876b87637dcd?q=80&w=1935&auto=format&fit=crop",
   "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=1980&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1974&auto=format&fit=crop",
 ];
 
 const HeroSection = () => {
