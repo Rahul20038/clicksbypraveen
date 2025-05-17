@@ -1,42 +1,43 @@
+
 import { useState } from "react";
 import { Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-// Sample Instagram feed - in a real app this would come from the Instagram API
+// Sample Instagram feed with realistic Indian photography images
 const samplePosts = [
   {
     id: "1",
-    image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1561100344-0cce8621ca6c?q=80&w=1974&auto=format&fit=crop",
     likes: 124,
     comments: 18,
   },
   {
     id: "2",
-    image: "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1537633552985-df8429e8048b?q=80&w=1974&auto=format&fit=crop",
     likes: 89,
     comments: 7,
   },
   {
     id: "3",
-    image: "https://images.unsplash.com/photo-1527576539890-dfa815648363?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1629392554711-6e25818oddfa?q=80&w=1974&auto=format&fit=crop",
     likes: 243,
     comments: 32,
   },
   {
     id: "4",
-    image: "https://images.unsplash.com/photo-1517022812141-23620dba5c23?q=80&w=2071&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1543722530-d2c3201371e7?q=80&w=1974&auto=format&fit=crop",
     likes: 156,
     comments: 14,
   },
   {
     id: "5",
-    image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?q=80&w=1980&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1570275239925-4af0aa93a0dc?q=80&w=2071&auto=format&fit=crop",
     likes: 98,
     comments: 9,
   },
   {
     id: "6",
-    image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?q=80&w=2071&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1583937443566-6fe1a1c6e400?q=80&w=1974&auto=format&fit=crop",
     likes: 187,
     comments: 21,
   },

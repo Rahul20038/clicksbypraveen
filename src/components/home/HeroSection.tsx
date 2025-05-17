@@ -2,12 +2,12 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-// Sample images for the hero slider
+// Updated images with Indian wedding/photography style
 const heroImages = [
-  "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=2070&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2070&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?q=80&w=1980&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=1974&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1974&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?q=80&w=1965&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1551201602-3f9456f0fbf8?q=80&w=1974&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1543722530-d2c3201371e7?q=80&w=1974&auto=format&fit=crop",
 ];
 
 const HeroSection = () => {
