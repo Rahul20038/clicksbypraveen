@@ -2,12 +2,12 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-// Updated images with Indian wedding/photography style
+// Updated images with Indian wedding/photography style from user uploads
 const heroImages = [
-  "https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1974&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?q=80&w=1965&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1551201602-3f9456f0fbf8?q=80&w=1974&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1543722530-d2c3201371e7?q=80&w=1974&auto=format&fit=crop",
+  "/lovable-uploads/5dfaf913-ffdf-4bd8-8e36-f3fec0408b3d.png", // Couple in traditional attire
+  "/lovable-uploads/9e777e83-9804-4131-9061-0bd9e43d74d0.png", // Silhouette couple at sunset
+  "/lovable-uploads/9c44ea79-21e4-4476-992b-bbb2a7c4dfe9.png", // Couple in car with red lighting
+  "/lovable-uploads/5b700ce3-e0b0-445a-aa7c-126baa5e1844.png", // Wedding ceremony couple
 ];
 
 const HeroSection = () => {

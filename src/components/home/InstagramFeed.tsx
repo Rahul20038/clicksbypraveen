@@ -3,43 +3,43 @@ import { useState } from "react";
 import { Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-// Sample Instagram feed with realistic Indian photography images
+// Sample Instagram feed with realistic Indian photography images from user uploads
 const samplePosts = [
   {
     id: "1",
-    image: "https://images.unsplash.com/photo-1561100344-0cce8621ca6c?q=80&w=1974&auto=format&fit=crop",
-    likes: 124,
-    comments: 18,
+    image: "/lovable-uploads/5dfaf913-ffdf-4bd8-8e36-f3fec0408b3d.png", // Couple in traditional attire
+    likes: 156,
+    comments: 24,
   },
   {
     id: "2",
-    image: "https://images.unsplash.com/photo-1537633552985-df8429e8048b?q=80&w=1974&auto=format&fit=crop",
-    likes: 89,
-    comments: 7,
+    image: "/lovable-uploads/a9f93a31-040d-4b16-8942-dab8cf0022cb.png", // Two women in traditional attire
+    likes: 143,
+    comments: 18,
   },
   {
     id: "3",
-    image: "https://images.unsplash.com/photo-1629392554711-6e25818oddfa?q=80&w=1974&auto=format&fit=crop",
-    likes: 243,
+    image: "/lovable-uploads/eedafaae-73a8-4dfa-91a0-7b587f4e199c.png", // Pre-wedding couple
+    likes: 208,
     comments: 32,
   },
   {
     id: "4",
-    image: "https://images.unsplash.com/photo-1543722530-d2c3201371e7?q=80&w=1974&auto=format&fit=crop",
-    likes: 156,
-    comments: 14,
+    image: "/lovable-uploads/a83434e2-8e01-4d8b-a55e-4cb734e9b314.png", // Baby photo
+    likes: 187,
+    comments: 27,
   },
   {
     id: "5",
-    image: "https://images.unsplash.com/photo-1570275239925-4af0aa93a0dc?q=80&w=2071&auto=format&fit=crop",
-    likes: 98,
-    comments: 9,
+    image: "/lovable-uploads/db53d6d7-7a6d-4891-84b5-d7d28f01fc5e.png", // Wedding ceremony collage
+    likes: 215,
+    comments: 43,
   },
   {
     id: "6",
-    image: "https://images.unsplash.com/photo-1583937443566-6fe1a1c6e400?q=80&w=1974&auto=format&fit=crop",
-    likes: 187,
-    comments: 21,
+    image: "/lovable-uploads/20f00b1b-17df-4d06-9c47-321f99fbd531.png", // Wedding couple with flower backdrop
+    likes: 234,
+    comments: 41,
   },
 ];
 
@@ -127,6 +127,35 @@ const InstagramFeed = () => {
               )}
             </a>
           ))}
+        </div>
+
+        <div className="mt-10 text-center">
+          <div className="bg-gray-100 rounded-lg p-6">
+            <h3 className="text-xl font-semibold mb-3">Instagram Reels</h3>
+            <p className="mb-4">Check out our latest photography reels on Instagram</p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <a 
+                href="https://www.instagram.com/clicksbypraveen/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 text-white p-6 rounded-lg hover:opacity-90 transition-colors flex items-center justify-center gap-3"
+              >
+                <Instagram size={24} />
+                <span className="font-medium">Watch Wedding Reels</span>
+              </a>
+              
+              <a 
+                href="https://www.instagram.com/clicksbypraveen/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 text-white p-6 rounded-lg hover:opacity-90 transition-colors flex items-center justify-center gap-3"
+              >
+                <Instagram size={24} />
+                <span className="font-medium">Watch Baby Photoshoot Reels</span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

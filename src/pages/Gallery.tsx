@@ -5,72 +5,72 @@ import Footer from "@/components/Footer";
 import GalleryFilter from "@/components/gallery/GalleryFilter";
 import GalleryGrid from "@/components/gallery/GalleryGrid";
 
-// Updated gallery data with Indian wedding and event photography images
+// Updated gallery data with Indian wedding and event photography images from uploads
 const galleryData = [
   {
     id: "1",
-    src: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1974&auto=format&fit=crop",
+    src: "/lovable-uploads/5dfaf913-ffdf-4bd8-8e36-f3fec0408b3d.png",
     category: "Wedding",
   },
   {
     id: "2",
-    src: "https://images.unsplash.com/photo-1561100344-0cce8621ca6c?q=80&w=1974&auto=format&fit=crop",
+    src: "/lovable-uploads/5b700ce3-e0b0-445a-aa7c-126baa5e1844.png",
     category: "Wedding",
   },
   {
     id: "3",
-    src: "https://images.unsplash.com/photo-1537633552985-df8429e8048b?q=80&w=1974&auto=format&fit=crop",
+    src: "/lovable-uploads/9e777e83-9804-4131-9061-0bd9e43d74d0.png",
     category: "Pre-Wedding",
   },
   {
     id: "4",
-    src: "https://images.unsplash.com/photo-1623659611347-f0de28f9cee2?q=80&w=1974&auto=format&fit=crop",
+    src: "/lovable-uploads/eedafaae-73a8-4dfa-91a0-7b587f4e199c.png",
     category: "Pre-Wedding",
   },
   {
     id: "5",
-    src: "https://images.unsplash.com/photo-1612461532625-9e5f2312d9e9?q=80&w=1974&auto=format&fit=crop",
+    src: "/lovable-uploads/a83434e2-8e01-4d8b-a55e-4cb734e9b314.png",
     category: "Baby",
   },
   {
     id: "6",
-    src: "https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?q=80&w=2069&auto=format&fit=crop",
-    category: "Birthday",
+    src: "/lovable-uploads/2a385e86-e97a-4e00-8594-4e05b54c7a07.png",
+    category: "Baby",
   },
   {
     id: "7",
-    src: "https://images.unsplash.com/photo-1609370850684-afc7cdbe4a5e?q=80&w=1974&auto=format&fit=crop",
+    src: "/lovable-uploads/9c44ea79-21e4-4476-992b-bbb2a7c4dfe9.png",
     category: "Candid",
   },
   {
     id: "8",
-    src: "https://images.unsplash.com/photo-1583937443566-6fe1a1c6e400?q=80&w=1974&auto=format&fit=crop",
+    src: "/lovable-uploads/ac250477-b975-4c60-9900-6a13acbea42c.png",
     category: "Studio",
   },
   {
     id: "9",
-    src: "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?q=80&w=1972&auto=format&fit=crop",
-    category: "Outdoor",
+    src: "/lovable-uploads/571073a3-bae1-4974-88ee-92852bd1826c.png",
+    category: "Studio",
   },
   {
     id: "10",
-    src: "https://images.unsplash.com/photo-1570275239925-4af0aa93a0dc?q=80&w=2071&auto=format&fit=crop",
+    src: "/lovable-uploads/db53d6d7-7a6d-4891-84b5-d7d28f01fc5e.png",
     category: "Wedding",
   },
   {
     id: "11",
-    src: "https://images.unsplash.com/photo-1629392554711-6e25818oddfa?q=80&w=1974&auto=format&fit=crop",
+    src: "/lovable-uploads/a9f93a31-040d-4b16-8942-dab8cf0022cb.png",
     category: "Candid",
   },
   {
     id: "12",
-    src: "https://images.unsplash.com/photo-1543722530-d2c3201371e7?q=80&w=1974&auto=format&fit=crop",
-    category: "Birthday",
+    src: "/lovable-uploads/6cbdcd08-3eae-4460-a990-8a7d5e28fbcc.png",
+    category: "Maternity",
   },
 ];
 
 const Gallery = () => {
-  const categories = ["All", "Wedding", "Pre-Wedding", "Birthday", "Baby", "Candid", "Studio", "Outdoor"];
+  const categories = ["All", "Wedding", "Pre-Wedding", "Baby", "Candid", "Studio", "Maternity"];
   const [activeCategory, setActiveCategory] = useState("All");
 
   return (

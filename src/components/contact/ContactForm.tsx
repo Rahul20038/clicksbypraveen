@@ -36,6 +36,13 @@ const ContactForm = () => {
         title: "Message Sent",
         description: "We'll get back to you as soon as possible!",
       });
+      // WhatsApp URL with pre-filled message containing form data
+      const whatsappMessage = encodeURIComponent(
+        `New Photography Inquiry from ${formData.name}\n\nEmail: ${formData.email}\nPhone: ${formData.phone}\nService: ${formData.service}\n\nMessage:\n${formData.message}`
+      );
+      const whatsappUrl = `https://wa.me/919963908200?text=${whatsappMessage}`;
+      window.open(whatsappUrl, '_blank');
+      
       setFormData({
         name: "",
         email: "",
@@ -49,6 +56,7 @@ const ContactForm = () => {
   return (
     <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-lg p-6 md:p-8">
       <h2 className="text-2xl font-semibold mb-6">Get In Touch</h2>
+      <p className="text-gray-600 mb-6">Fill out this form and we'll get back to you shortly, or connect directly via WhatsApp for faster response.</p>
 
       <div className="space-y-4">
         <div>
@@ -107,6 +115,7 @@ const ContactForm = () => {
               name="phone"
               value={formData.phone}
               onChange={handleChange}
+              required
               className="contact-input pl-10"
               placeholder="+91 99999 88888"
             />
@@ -133,6 +142,7 @@ const ContactForm = () => {
             <option value="Candid Photography">Candid Photography</option>
             <option value="Traditional/Studio Photoshoots">Traditional/Studio Photoshoots</option>
             <option value="Outdoor Couple/Portrait Shoots">Outdoor Couple/Portrait Shoots</option>
+            <option value="Maternity Shoots">Maternity Shoots</option>
             <option value="Other">Other</option>
           </select>
         </div>
@@ -158,20 +168,44 @@ const ContactForm = () => {
           </div>
         </div>
 
-        <Button
-          type="submit"
-          className="w-full bg-purple-600 hover:bg-purple-700 text-white flex items-center justify-center gap-2"
-          disabled={isSubmitting}
-        >
-          {isSubmitting ? (
-            "Sending..."
-          ) : (
-            <>
-              <Send size={18} />
-              Send Message
-            </>
-          )}
-        </Button>
+        <div className="flex flex-col sm:flex-row gap-3">
+          <Button
+            type="submit"
+            className="bg-purple-600 hover:bg-purple-700 text-white flex items-center justify-center gap-2"
+            disabled={isSubmitting}
+          >
+            {isSubmitting ? (
+              "Sending..."
+            ) : (
+              <>
+                <Send size={18} />
+                Send Message
+              </>
+            )}
+          </Button>
+          
+          <a 
+            href={`https://wa.me/919963908200`}
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md transition-colors"
+          >
+            <svg 
+              xmlns="http://www.w3.org/2000/svg" 
+              width="18" 
+              height="18" 
+              viewBox="0 0 24 24" 
+              fill="none" 
+              stroke="currentColor" 
+              strokeWidth="2" 
+              strokeLinecap="round" 
+              strokeLinejoin="round"
+            >
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+            </svg>
+            Chat on WhatsApp
+          </a>
+        </div>
       </div>
     </form>
   );

@@ -7,37 +7,37 @@ const services = [
     title: "Wedding Photography",
     description: "Capturing your special day with elegance and emotion",
     icon: Camera,
-    image: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1974&auto=format&fit=crop",
+    image: "/lovable-uploads/5b700ce3-e0b0-445a-aa7c-126baa5e1844.png", // Wedding couple image
   },
   {
     title: "Birthday & Event Photography",
     description: "Preserving joyful celebrations and milestones",
     icon: Cake,
-    image: "https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?q=80&w=2069&auto=format&fit=crop",
+    image: "/lovable-uploads/04520cb1-15e0-44df-a8ec-b8e6d8d844ea.png", // Library themed child photoshoot
   },
   {
     title: "Pre-Wedding Shoots",
     description: "Romantic and creative sessions for couples",
     icon: Heart,
-    image: "https://images.unsplash.com/photo-1537633552985-df8429e8048b?q=80&w=1974&auto=format&fit=crop",
+    image: "/lovable-uploads/eedafaae-73a8-4dfa-91a0-7b587f4e199c.png", // Couple in formal wear
   },
   {
     title: "Baby Shoots",
     description: "Gentle and adorable portraits of your little ones",
     icon: Baby,
-    image: "https://images.unsplash.com/photo-1612461532625-9e5f2312d9e9?q=80&w=1974&auto=format&fit=crop",
+    image: "/lovable-uploads/a83434e2-8e01-4d8b-a55e-4cb734e9b314.png", // Baby in traditional dress
   },
   {
     title: "Candid Photography",
     description: "Natural and unposed moments that tell your story",
     icon: User,
-    image: "https://images.unsplash.com/photo-1609370850684-afc7cdbe4a5e?q=80&w=1974&auto=format&fit=crop",
+    image: "/lovable-uploads/9e777e83-9804-4131-9061-0bd9e43d74d0.png", // Sunset silhouette
   },
   {
     title: "Traditional/Studio Photoshoots",
     description: "Classic portraits in a controlled environment",
     icon: ImageIcon,
-    image: "https://images.unsplash.com/photo-1502124103086-36918e69f5a1?q=80&w=1974&auto=format&fit=crop",
+    image: "/lovable-uploads/8b78434f-332f-47b2-9292-ed20942cbcba.png", // Man in traditional attire
   },
 ];
 
