@@ -1,8 +1,7 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ServiceDetail from "@/components/services/ServiceDetail";
-import { Camera, BirthdayCake, Heart, Baby, User, Image as ImageIcon, Mountain } from "lucide-react";
+import { Camera, Cake, Heart, Baby, User, Image as ImageIcon, Mountain } from "lucide-react";
 
 const Services = () => {
   return (
@@ -47,7 +46,7 @@ const Services = () => {
               "Quick turnaround time"
             ]}
             image="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?q=80&w=2070&auto=format&fit=crop"
-            icon={<BirthdayCake size={24} />}
+            icon={<Cake size={24} />}
             reverse={true}
           />
           

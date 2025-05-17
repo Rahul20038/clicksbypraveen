@@ -1,5 +1,5 @@
 
-import { Camera, BirthdayCake, Heart, Baby, User, Image as ImageIcon, Mountain } from "lucide-react";
+import { Camera, Cake, Heart, Baby, User, Image as ImageIcon, Mountain } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const services = [
@@ -12,7 +12,7 @@ const services = [
   {
     title: "Birthday & Event Photography",
     description: "Preserving joyful celebrations and milestones",
-    icon: BirthdayCake,
+    icon: Cake,
     image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?q=80&w=2070&auto=format&fit=crop",
   },
   {
