@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Camera, Menu, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -60,11 +59,6 @@ const Navbar = () => {
                 Contact
               </Link>
             </div>
-            <Link to="/login">
-              <Button variant={isScrolled ? "outline" : "secondary"} className="ml-4">
-                Login / Register
-              </Button>
-            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -92,11 +86,6 @@ const Navbar = () => {
               </Link>
               <Link to="/contact" className="nav-link text-gray-800" onClick={toggleMenu}>
                 Contact
-              </Link>
-              <Link to="/login" onClick={toggleMenu}>
-                <Button variant="outline" className="w-full">
-                  Login / Register
-                </Button>
               </Link>
             </div>
           </div>

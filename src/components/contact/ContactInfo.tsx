@@ -1,5 +1,5 @@
 
-import { Phone, Mail, MapPin, Instagram, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Instagram, Clock, WhatsApp } from "lucide-react";
 
 const ContactInfo = () => {
   return (
@@ -38,12 +38,15 @@ const ContactInfo = () => {
           <div>
             <h3 className="font-medium text-gray-900">Location</h3>
             <a 
-              href="https://g.co/kgs/eJ21W7d" 
+              href="https://g.co/kgs/puCxHpd" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-gray-600 hover:text-purple-600 transition-colors"
             >
-              Hyderabad, Telangana, India
+              Clicksbypraveen studio & printed giftarticles, 
+              <br />Bypass road, opposite Rest-inn, 
+              <br />beside smart kids school, Bank Colony, 
+              <br />Khammam, Telangana 507002
             </a>
           </div>
         </div>
@@ -77,37 +80,26 @@ const ContactInfo = () => {
       </div>
       
       <div className="mt-8">
-        <h3 className="font-medium text-gray-900 mb-2">Quick Connect</h3>
-        <div className="flex gap-3">
+        <h3 className="font-medium text-gray-900 mb-4">Connect with Us</h3>
+        <div className="flex flex-col md:flex-row gap-4">
           <a 
             href="https://wa.me/919963908200" 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="bg-green-500 text-white p-3 rounded-full hover:bg-green-600 transition-colors"
-            aria-label="Chat on WhatsApp"
+            className="bg-green-500 hover:bg-green-600 text-white py-3 px-6 rounded-md transition-colors flex items-center justify-center gap-2"
           >
-            <svg 
-              xmlns="http://www.w3.org/2000/svg" 
-              width="20" 
-              height="20" 
-              viewBox="0 0 24 24" 
-              fill="none" 
-              stroke="currentColor" 
-              strokeWidth="2" 
-              strokeLinecap="round" 
-              strokeLinejoin="round"
-            >
-              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
-            </svg>
+            <WhatsApp size={20} />
+            Chat on WhatsApp
           </a>
+          
           <a 
             href="https://www.instagram.com/clicksbypraveen/" 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 text-white p-3 rounded-full hover:opacity-90 transition-colors"
-            aria-label="Visit Instagram"
+            className="bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 hover:opacity-90 text-white py-3 px-6 rounded-md transition-colors flex items-center justify-center gap-2"
           >
             <Instagram size={20} />
+            Follow on Instagram
           </a>
         </div>
       </div>

@@ -1,7 +1,6 @@
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import ContactForm from "@/components/contact/ContactForm";
 import ContactInfo from "@/components/contact/ContactInfo";
 
 const Contact = () => {
@@ -23,8 +22,7 @@ const Contact = () => {
         {/* Contact Section */}
         <div className="py-16">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-              <ContactForm />
+            <div className="max-w-3xl mx-auto">
               <ContactInfo />
             </div>
           </div>
@@ -34,7 +32,7 @@ const Contact = () => {
         <div className="h-96 w-full">
           <iframe
             title="ClicksByPraveen Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.31698204045!2d78.24304414642063!3d17.41263097178368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana%2C%20India!5e0!3m2!1sen!2sus!4v1653156453987!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3796.274861802076!2d80.13944237609619!3d17.981370982262534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a33406bc52a5c95%3A0x7dee509cd2437d77!2sClicksbypraveen%20studio%26%20printed%20giftarticles!5e0!3m2!1sen!2sin!4v1715991571447!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{ border: 0 }}

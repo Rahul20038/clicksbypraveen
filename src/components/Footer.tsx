@@ -52,11 +52,6 @@ const Footer = () => {
                   Contact
                 </Link>
               </li>
-              <li>
-                <Link to="/login" className="text-gray-300 hover:text-purple-400 transition-colors">
-                  Login / Register
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -78,12 +73,12 @@ const Footer = () => {
               <li className="flex items-start gap-2">
                 <MapPin size={18} className="text-purple-400 mt-1" />
                 <a 
-                  href="https://g.co/kgs/eJ21W7d" 
+                  href="https://g.co/kgs/puCxHpd" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-gray-300 hover:text-purple-400 transition-colors"
                 >
-                  Hyderabad, Telangana, India
+                  Khammam, Telangana, India
                 </a>
               </li>
             </ul>
