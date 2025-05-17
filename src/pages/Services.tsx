@@ -1,3 +1,4 @@
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ServiceDetail from "@/components/services/ServiceDetail";
@@ -31,7 +32,7 @@ const Services = () => {
               "High-resolution digital images",
               "Premium photo album options"
             ]}
-            image="https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1974&auto=format&fit=crop"
+            image="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1974&auto=format&fit=crop"
             icon={<Camera size={24} />}
           />
           
@@ -45,7 +46,7 @@ const Services = () => {
               "Key moment coverage",
               "Quick turnaround time"
             ]}
-            image="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?q=80&w=2070&auto=format&fit=crop"
+            image="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?q=80&w=2070&auto=format&fit=crop"
             icon={<Cake size={24} />}
             reverse={true}
           />
@@ -60,7 +61,7 @@ const Services = () => {
               "Creative concepts and themes",
               "Same-day preview of selected photos"
             ]}
-            image="https://images.unsplash.com/photo-1583729152957-fbc29e773a57?q=80&w=2070&auto=format&fit=crop"
+            image="https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=2070&auto=format&fit=crop"
             icon={<Heart size={24} />}
           />
           
@@ -74,7 +75,7 @@ const Services = () => {
               "Patient and experienced with children",
               "Family photos included"
             ]}
-            image="https://images.unsplash.com/photo-1540479859555-17af45c78602?q=80&w=2070&auto=format&fit=crop"
+            image="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop"
             icon={<Baby size={24} />}
             reverse={true}
           />
@@ -89,7 +90,7 @@ const Services = () => {
               "Creative composition",
               "Black and white and color options"
             ]}
-            image="https://images.unsplash.com/photo-1537633552985-df8429e8048b?q=80&w=2070&auto=format&fit=crop"
+            image="https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2070&auto=format&fit=crop"
             icon={<User size={24} />}
           />
           
@@ -103,7 +104,7 @@ const Services = () => {
               "Individual and group portraits",
               "Professional retouching"
             ]}
-            image="https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?q=80&w=1983&auto=format&fit=crop"
+            image="https://images.unsplash.com/photo-1493397212122-2b85dda8106b?q=80&w=1983&auto=format&fit=crop"
             icon={<ImageIcon size={24} />}
             reverse={true}
           />
@@ -118,7 +119,7 @@ const Services = () => {
               "Relaxed and comfortable sessions",
               "Weather backup plans"
             ]}
-            image="https://images.unsplash.com/photo-1534525781407-876b87637dcd?q=80&w=1935&auto=format&fit=crop"
+            image="https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1935&auto=format&fit=crop"
             icon={<Mountain size={24} />}
           />
         </div>

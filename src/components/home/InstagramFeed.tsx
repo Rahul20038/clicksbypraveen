@@ -1,5 +1,4 @@
-
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -7,37 +6,37 @@ import { Button } from "@/components/ui/button";
 const samplePosts = [
   {
     id: "1",
-    image: "https://images.unsplash.com/photo-1537633552985-df8429e8048b?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2070&auto=format&fit=crop",
     likes: 124,
     comments: 18,
   },
   {
     id: "2",
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=2070&auto=format&fit=crop",
     likes: 89,
     comments: 7,
   },
   {
     id: "3",
-    image: "https://images.unsplash.com/photo-1583729152957-fbc29e773a57?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1527576539890-dfa815648363?q=80&w=2070&auto=format&fit=crop",
     likes: 243,
     comments: 32,
   },
   {
     id: "4",
-    image: "https://images.unsplash.com/photo-1591604466107-ec97de577507?q=80&w=2071&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1517022812141-23620dba5c23?q=80&w=2071&auto=format&fit=crop",
     likes: 156,
     comments: 14,
   },
   {
     id: "5",
-    image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=1980&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?q=80&w=1980&auto=format&fit=crop",
     likes: 98,
     comments: 9,
   },
   {
     id: "6",
-    image: "https://images.unsplash.com/photo-1608446781594-658871744e69?q=80&w=2071&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?q=80&w=2071&auto=format&fit=crop",
     likes: 187,
     comments: 21,
   },

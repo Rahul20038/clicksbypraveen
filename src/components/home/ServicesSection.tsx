@@ -7,37 +7,37 @@ const services = [
     title: "Wedding Photography",
     description: "Capturing your special day with elegance and emotion",
     icon: Camera,
-    image: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1974&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1974&auto=format&fit=crop",
   },
   {
     title: "Birthday & Event Photography",
     description: "Preserving joyful celebrations and milestones",
     icon: Cake,
-    image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?q=80&w=2070&auto=format&fit=crop",
   },
   {
     title: "Pre-Wedding Shoots",
     description: "Romantic and creative sessions for couples",
     icon: Heart,
-    image: "https://images.unsplash.com/photo-1583729152957-fbc29e773a57?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=2070&auto=format&fit=crop",
   },
   {
     title: "Baby Shoots",
     description: "Gentle and adorable portraits of your little ones",
     icon: Baby,
-    image: "https://images.unsplash.com/photo-1540479859555-17af45c78602?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop",
   },
   {
     title: "Candid Photography",
     description: "Natural and unposed moments that tell your story",
     icon: User,
-    image: "https://images.unsplash.com/photo-1537633552985-df8429e8048b?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2070&auto=format&fit=crop",
   },
   {
     title: "Traditional/Studio Photoshoots",
     description: "Classic portraits in a controlled environment",
     icon: ImageIcon,
-    image: "https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?q=80&w=1983&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1493397212122-2b85dda8106b?q=80&w=1983&auto=format&fit=crop",
   },
 ];
 
